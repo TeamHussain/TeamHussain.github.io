@@ -203,7 +203,7 @@ nav ul li:hover::after{
     grid-area: sec1;
     color: var(--maincolor);
     display: flex;
-    background-image: url("../photos/back.jpg");
+    background-image: url("../images/back.jpg");
     background-size: 600px;
     background-position: 580px center;
     background-repeat: no-repeat;
@@ -252,77 +252,6 @@ nav ul li:hover::after{
 }
 
 /* Section two */
-
-.section2{
-    grid-area: sec2;
-    display: flex;
-}
-
-.section2 .container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    max-width: 1000px;
-}   
-  .section2 img{
-    height: 300px;
-    vertical-align: middle;
-}
-
-  .mySlides {
-    display: none;
-  }
-  
-
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: var(--maincolor);
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-  }
-  
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-
-  .prev{
-    left: 0px;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-  }
-  
-  
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    text-align:center
-  }
-  
-  .active,.dot:hover {
-    background-color: #717171;
-  }
-
-/* Section three */
 
 .section3{
     grid-area: sec3;
@@ -392,85 +321,26 @@ nav ul li:hover::after{
     margin: auto;
 }
 .section3 .product4 img{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.section3 .product5 img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.section3 .product6 img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.section3 .product7 img{
+    width: 70px;
+    height: 70px;
     margin: auto;
 }
 
-
-/* Section Four */
-
-.section4{
-    grid-area: sec4;
-    display: flex;
-}
-.section4 .container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.section4 .prodcontainer{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 0px 20px;
-
-}
-
-.section4 .product{
-    display: grid;
-    width: 200px;
-    height: 270px;
-    padding: 20px;
-    border-radius: 10px;
-    gap: 5px;
-    grid-template-rows: 180px 25px 30px;
-    align-items: center;
-    background-color: white;
-    box-shadow:0px 0px 4px 0px #00000040;
-    display: none;
-}
-
-.section4 .product img{
-    width: 100%;
-}
-
-.section4 .product-name{
-    font-size: 18px;
-}
-
-.section4 .product div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.section4 .product button{
-    background-color: var(--secondcolor);
-    border: none;
-    padding: 5px;
-    color: white;
-    border-radius: 5px;
-    outline: none;
-}
-
-.section4 .prev , .section4 .next {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    background-color: white;
-    color: var(--maincolor);
-    padding: 14px;
-    text-align: center;
-    margin: 0px;
-}
-
-.section4 .prev:hover , .section4 .next:hover{
-    background-color: black;
-    color: white;
-}
 
 /* Footer */
 

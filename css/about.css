@@ -1,0 +1,152 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+
+}
+
+
+.navbar{
+background-color: black;
+text-align: center;
+
+
+
+}
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+    color: beige;
+}
+.navbar ul li{
+  width: 120px;  
+  margin: 15px;
+  padding:15px ;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+.active,.navbar ul li :hover {
+    background:#ff8929;
+    border-radius:50px ;
+
+}
+.span,.navbar ul li :hover{
+    background:#ff7200;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 75px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.dropdown{
+    display: none;
+
+}
+.navbar ul li:hover .dropdown{
+    display: block;
+    position:absolute;
+    background-color: #ff7200;
+    margin-top:15px ;
+    margin-left:-15px ;
+   
+}
+.navbar ul li:hover .dropdown ul {
+  display: block;
+  margin: 10px;  
+}
+.navbar ul li:hover .dropdown ul li {
+    width: 150px; 
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 50px;
+    text-align: left;
+}
+.navbar ul li:hover .dropdown ul li a:hover {
+    color:black ;
+
+}
+
+
+
+.about{
+  background: #ff8929;
+background-attachment: fixed;
+border: 90px black solid;
+
+
+
+
+
+}
+.about img{
+    height:auto ;
+    width: 420px;
+    background-size: cover;
+    
+
+}
+.about-text{
+    width: 550px;
+    margin-top: 40px ;
+    font-weight: 700;
+
+ 
+}
+.main {
+  width: 1130px;  
+  height: 700px;
+  max-width: 95%;
+margin: 0 auto ;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 20px;
+
+}
+.about-text h1{
+    color:black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+span{
+    color: white;
+}
+.about-text p{
+    color:rgb(42, 41, 41);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size:18px ;
+    margin-bottom: 45px;
+}
